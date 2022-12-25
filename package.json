@@ -16,16 +16,14 @@
   "contributes": {
     "commands": [
       {
-        "command": "openpilot.helloWorld",
-        "title": "Hello World"
-      },
-      {
         "command": "openpilot.registerToken",
-        "title": "Set Open AI Token"
+        "title": "Set Open AI Token",
+        "category": "OpenAI"
       },
       {
         "command": "openpilot.createComments",
-        "title": "Create Comments"
+        "title": "Create Comments",
+        "category": "OpenAI"
       }
     ]
   },
